@@ -1,0 +1,17 @@
+Package: learnres
+Type: Package
+Title: Templates for different learnr tutorials in Spanish
+Version: 0.1.0
+Authors@R: person("Yanina", "Bellini Saibene", 
+                  email = "yabellini@gmail.com", 
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "0000-0000-0000-0000"))
+Description: Contains templates and themeing files.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+Suggests: 
+    roxygen2,
+    knitr
+RoxygenNote: 7.1.1

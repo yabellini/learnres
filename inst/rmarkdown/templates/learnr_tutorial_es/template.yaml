@@ -1,0 +1,4 @@
+name: Tutorial interactivo
+description: >
+  Tutorial interactivo que contiene figuras, videos, ejercicios de R y preguntas.
+create_dir: true
