@@ -76,7 +76,9 @@ quiz(
     answer("ggplot", message = "Cerca, pero no...intentalo de nuevo!"),
     answer("gplot2", message = "Nop...intentalo de nuevo!"),
     answer("plot2", message = "Incorrect. Intenta de nuevo!."),
-    answer("ggplot2", correct = TRUE)
+    answer("ggplot2", correct = TRUE),
+    submit_button = "Enviar respuesta",
+    try_again_button = "Intentar de nuevo"
   ), caption = "Visualización"
 )
 
@@ -90,13 +92,17 @@ quiz(
     answer("base"),
     answer("tools"),
     answer("utils", correct = TRUE),
-    answer("codetools")
+    answer("codetools"),
+    submit_button = "Enviar respuesta",
+    try_again_button = "Intentar de nuevo"
   ),
   question("¿Cuál de los paquetes R enumerados a continuación se usa para crear gráficos?",
     answer("lattice", correct = TRUE),
     answer("tools"),
     answer("stats"),
-    answer("grid", correct = TRUE)
+    answer("grid", correct = TRUE),
+    submit_button = "Enviar respuesta",
+    try_again_button = "Intentar de nuevo"
   )
 )
 ```
