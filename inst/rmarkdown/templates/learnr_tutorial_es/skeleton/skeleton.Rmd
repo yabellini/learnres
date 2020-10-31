@@ -4,7 +4,7 @@ author: Yanina Bellini Saibene (MetaDocencia)
 output: 
   learnr::tutorial:
     css: css/learnr_metadocencia.css
-    progressive: true # los encabwzados de tercer nivel (###) son revelados progresivamente 
+    progressive: true # los encabezados de tercer nivel (###) son revelados progresivamente 
     allow_skip: true # permite saltearse los ejercicios. 
 description: "Mi super genial tutorial de R" # Esta descripción se ve en el panel Tutorial de RStudio 
 runtime: shiny_prerendered
