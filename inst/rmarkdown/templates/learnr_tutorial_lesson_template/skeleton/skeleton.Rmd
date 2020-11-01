@@ -6,7 +6,7 @@ output:
     css: css/learnr_metadocencia.css
     progressive: true # los encabezados de tercer nivel (###) son revelados progresivamente 
     allow_skip: true # permite saltearse los ejercicios. 
-description: "Mi super genial tutorial de R" # Esta descripción se ve en el panel Tutorial de RStudio 
+description: "Tutorial interactivo con recursos para facilitar compartirlos y reusarlos" # Esta descripción se ve en el panel Tutorial de RStudio 
 runtime: shiny_prerendered
 ---
 
@@ -16,7 +16,89 @@ knitr::opts_chunk$set(echo = FALSE,
                  exercise.warn_invisible = FALSE)
 ```
 
-## Introducción
+## Presentación 
+
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("images/tutorial.jpg")
+# Photo by Markus Winkler on Unsplash https://unsplash.com/photos/92HqQ0ZvKDA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+```
+En su presentación _Learning without a net_ Alison Hill nos cuenta que un **buen tutorial** debe tener:
+
+* un buen **alcance**
+* una buena **estructura**
+* una buena **secuencia**
+
+En esta plantilla proponemos una sección de Presentación del curso que contiene herrmientas pedagógicas pensadas para hacer contribuir a la apertura, reuso y aprovechamiento del material pedagógico.
+
+### Mapa conceptual
+
+Estos son los conceptos y relaciones que vamos a cubrir durante el tutorial:
+
+```{r echo=FALSE}
+# DiagrammeR("
+# graph LR;
+#   A[Gráficos] -->|tienen| B[Gramática];
+#   A -->|tipo| C[Barra];
+#   A -->|tipo| D[Puntos];
+#   A -->|tipo| E[Lineas];
+#   A -->|tipo| L[Areas];
+#   B -->|son| F[Reglas];
+#   B -->|compuesta por| G[Variables de datos];
+#   B -->|compuesta por| H[Atributos estéticos];
+#   B -->|compuesta por| I[Objetos Geométricos];
+#   F -->|combinan| J[capas]
+#   K[ggplot2] -->|implementa| B
+# ")
+
+knitr::include_graphics("images/mapa_conceptual.png")  
+
+```
+
+### ¿Quién sos vos?
+
+En este tutorial vamos a reparar como generar una serie de gráficos básicos con R utilizando el paquete `ggplot2`.  cuando generamos este tutorial pensamos en las siguientes personas:
+
+```{r, echo=FALSE, out.width="100%", fig.align = "center"}
+knitr::include_graphics("images/gentecompu.jpg")  
+```
+
+
+> [Photo by Brooke Cagle on Unsplash](https://unsplash.com/photos/C-v1p2DTakA)
+
+**Felicitas** está dando sus primeros pasos como investigadora. Debe hacer informes que incluyan estadísticas como parte de sus actividades. Usa Excel e InfoStat (un programa de estadísticas basado en menús) para registrar sus datos y realizar sus cálculos; y luego usa Word para escribir sus informes copiando y pegando desde los otros softwares. Ha visto gráficos e informes PDF generados en R por sus compañeras de trabajo. La estética de los gráficos y la posibilidad de automatizar algunos de sus informes hizo que se interese en aprender a usar R. No tiene mucho tiempo para ir a cursos formales, ya se instaló R y RStudio y quiere empezar a aprender por su cuenta hasta que pueda asisitir a algun meetup de R-Ladies en su ciudad, donde sus compañeras aprendieron a utilizar estas herramientas.
+
+**Sebastián** es un entusiasta del análisis de datos, está cursando el último año de su carrera de grado en economía y aunque en su disciplina se usan otros software, ha escuchado mucho sobre R ultimamente y ve que hay una gran movida comunitaria en la región especialmente en twitter.  Descubrió que hay desafíos semanales para aprender diferentes herramientas y justo este mes se hace uno de 30 días de gráficos.  Le parece una gran oportunidad para aprender, pero no sabe muy bien por donde empezar a aprender como graficar con R porque cuando busca en Internet aparecen códigos muy diferentes para el mismo tipo de gráfico.
+
+
+### Licencia
+
+```{r, echo=FALSE, fig.align = "left"}
+knitr::include_graphics("images/CC_BY-SA_4.0.png")  
+```
+
+Este curso se comparte bajo la licencia [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES) y fue realizado por [Yanina Bellini Saibene](https://yabellini.netlify.app/)
+
+### Te mostramos el otro mapa: como funciona el tutorial
+
+### Ejemplo de la gramática en un gráfico
+
+Vamos a ver un ejemplo de estos componentes en un gráfico, para ello vamos a utilizar el paquete `gapminder` que ya instalamos y cargamos por ti.
+
+Para ver los datos de `gapminder`, escribe `gapminder` en el bloque de código que aparece abajo y luego haz click en el botón _"Run Code"_ (ejecutar código, en inglés).
+
+```{r gapminder0, exercise = TRUE}
+
+
+```
+
+```{r gapminder0-solution}
+gapminder
+```
+
+### Mensaje
+
+Buen trabajo! Usaremos fragmentos de código interactivos como este en el tutorial. Siempre que encuentres uno, puedes hacer clic en _Run Code_ para ejecutar el código escrito. Si hay un botón _Hint_ o _Solución_, puedes hacer clic para recibir ayuda y/o ver la respuesta.
+
 
 
 ## Tema 1
