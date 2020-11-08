@@ -41,21 +41,50 @@ En esta plantilla proponemos una sección de __Presentación y Bienvenida__ del 
 
 En este tutorial vamos a reparar como generar una serie de gráficos básicos con R utilizando el paquete `ggplot2`
 
-### ¿Quién sos vos?
-
-Cuando generamos este tutorial pensamos en las siguientes personas:
-
+### Personas tipo o ¿Quién sos vos?
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
 knitr::include_graphics("images/gentecompu.jpg")  
 ```
 > [Photo by Brooke Cagle on Unsplash](https://unsplash.com/photos/C-v1p2DTakA)
 
-**Felicitas** está dando sus primeros pasos como investigadora. Debe hacer informes que incluyan estadísticas como parte de sus actividades. Usa Excel e InfoStat (un programa de estadísticas basado en menús) para registrar sus datos y realizar sus cálculos; y luego usa Word para escribir sus informes copiando y pegando desde los otros softwares. Ha visto gráficos e informes PDF generados en R por sus compañeras de trabajo. La estética de los gráficos y la posibilidad de automatizar algunos de sus informes hizo que se interese en aprender a usar R. No tiene mucho tiempo para ir a cursos formales, ya se instaló R y RStudio y quiere empezar a aprender por su cuenta hasta que pueda asisitir a algun meetup de R-Ladies en su ciudad, donde sus compañeras aprendieron a utilizar estas herramientas.
+Las personas tipo describen el público para el que fue pensado el curso. Como se explica en el libro [Teaching Teach Together](https://teachtogether.tech/es/index.html#s:process-personas) debe contemplar los siguientes aspectos:
 
-**Sebastián** es un entusiasta del análisis de datos, está cursando el último año de su carrera de grado en economía y aunque en su disciplina se usan otros software, ha escuchado mucho sobre R ultimamente y ve que hay una gran movida comunitaria en la región especialmente en twitter.  Descubrió que hay desafíos semanales para aprender diferentes herramientas y justo este mes se hace uno de 30 días de gráficos.  Le parece una gran oportunidad para aprender, pero no sabe muy bien por donde empezar a aprender como graficar con R porque cuando busca en Internet aparecen códigos muy diferentes para el mismo tipo de gráfico.
+* __los antecedentes generales__ del/la estudiante,
+* __los conocimientos y/o experiencia previa relevante__,
+* lo que estos __estudiantes creen que quieren aprender__ (versus lo que el/la docente cree que deberían aprender), y
+* cualquier __consideración especial__, como las necesidades de accesibilidad.
+
+Cuando generamos esta plantilla pensamos en las siguientes personas tipo:
+
+* __Josefina:__ conoce y enseña R en su cátedra en la universidad. Está familiarizada con RMarkdown (es parte de lo que enseña a sus estudiantes y uno de los formatos en los que comparte ejercicios resueltos). La cantidad de estudiantes de su materia le hace cada vez más difícil poder corregir todos los ejercicios de código a mano así que está interesada en proporcionar feedback automatizados a la respuesta de los ejercicios de programación con R que dan en su materia.
+
+* __Rene:__ es docente y ha tenido que llevar su clase de introducción a R a formato virtual, esto le hace muy difícil poder ayudar a sus alumnos con la configuración de sus máquinas personales con todo el software necesario para llevar adelante la clase. Ya tiene ejercicios generados en formato rmarkdown. Con la idea de que puedan empezar a trabajar enseguida con R sin sufrir con la instalación en un inicio le parece buena idea generar tutoriales interactivos porque escuchó que se pueden publicar como una aplicación shiny.
+
+Si quieres más ejemplos estas personas de [MetaDocencia](https://www.metadocencia.org/post/personas-tipo/), [RStudio Education](https://education.rstudio.com/blog/2020/10/learner-personas/) y [mis cursos](https://github.com/yabellini/learner_personas) pueden servirte de inspiración.
 
 
 ### Licencia
+
+Los materiales que cuentan con una licencia permiten ser utilizados correctamente.  Si la licencia no figura explicitamente, por defecto el contenido es cerrado. 
+
+Sugerimos seleccionar una licencia abierta tanto para el material (texto, imágenes, videos) como para el software. 
+
+### Material
+
+Las licencias [Creative Commons](http://www.creativecommons.org.ar/licencias.html) proveen diversos tipos  dependiendo de lo que deseamos que pueda hacer quien use nuestros materiales. Este [selector de licencias](https://creativecommons.org/choose/?lang=es_AR) puede ayudarnos a elegir la licencia que mejor se adapta a nuestras necesidades. 
+
+### Software
+
+Para el software, existen múltiples opciones. Sugerimos alguna de estas tres opciones:
+
+* La [licencia MIT](), que permite a los usuarios hacer libremente lo que quieran.
+
+* Usar la [Licencia Pública General de GNU (GPL)](https://www.gnu.org/licenses/licenses.es.html#GPL), que también permite a los usuarios hacer lo que quieran, pero requiere que compartan su propio código.
+
+* La [licencia hipocrática](https://firstdonoharm.dev/version/2/1/license.html), que permite usar el código libremente siempre que el usuario no esté violando los tratados básicos de derechos humanos.  
+
+Tengamos en cuenta que si utilizamos código de otros autores pueden existir restricciones con respecto a que licencia podemos asignar a nuestro propio código.
+
 
 ```{r, echo=FALSE, fig.align = "left"}
 knitr::include_graphics("images/CC_BY-SA_4.0.png")  
