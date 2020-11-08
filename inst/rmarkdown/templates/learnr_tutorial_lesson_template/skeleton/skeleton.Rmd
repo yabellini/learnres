@@ -28,31 +28,10 @@ En su presentación _Learning without a net_ Alison Hill nos cuenta que un **bue
 * una buena **estructura**
 * una buena **secuencia**
 
-En esta plantilla proponemos una sección de Presentación del curso que contiene herrmientas pedagógicas pensadas para hacer contribuir a la apertura, reuso y aprovechamiento del material pedagógico.
+En esta plantilla proponemos una sección de __Presentación__ del curso que contiene herrmientas pedagógicas pensadas para contribuir a la apertura, reuso y aprovechamiento del material pedagógico.
 
-### Mapa conceptual
+### Agenda del curso y objetivos de aprendizaje
 
-Estos son los conceptos y relaciones que vamos a cubrir durante el tutorial:
-
-```{r echo=FALSE}
-# DiagrammeR("
-# graph LR;
-#   A[Gráficos] -->|tienen| B[Gramática];
-#   A -->|tipo| C[Barra];
-#   A -->|tipo| D[Puntos];
-#   A -->|tipo| E[Lineas];
-#   A -->|tipo| L[Areas];
-#   B -->|son| F[Reglas];
-#   B -->|compuesta por| G[Variables de datos];
-#   B -->|compuesta por| H[Atributos estéticos];
-#   B -->|compuesta por| I[Objetos Geométricos];
-#   F -->|combinan| J[capas]
-#   K[ggplot2] -->|implementa| B
-# ")
-
-knitr::include_graphics("images/mapa_conceptual.png")  
-
-```
 
 ### ¿Quién sos vos?
 
@@ -61,8 +40,6 @@ En este tutorial vamos a reparar como generar una serie de gráficos básicos co
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
 knitr::include_graphics("images/gentecompu.jpg")  
 ```
-
-
 > [Photo by Brooke Cagle on Unsplash](https://unsplash.com/photos/C-v1p2DTakA)
 
 **Felicitas** está dando sus primeros pasos como investigadora. Debe hacer informes que incluyan estadísticas como parte de sus actividades. Usa Excel e InfoStat (un programa de estadísticas basado en menús) para registrar sus datos y realizar sus cálculos; y luego usa Word para escribir sus informes copiando y pegando desde los otros softwares. Ha visto gráficos e informes PDF generados en R por sus compañeras de trabajo. La estética de los gráficos y la posibilidad de automatizar algunos de sus informes hizo que se interese en aprender a usar R. No tiene mucho tiempo para ir a cursos formales, ya se instaló R y RStudio y quiere empezar a aprender por su cuenta hasta que pueda asisitir a algun meetup de R-Ladies en su ciudad, donde sus compañeras aprendieron a utilizar estas herramientas.
