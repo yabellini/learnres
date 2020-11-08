@@ -16,26 +16,34 @@ knitr::opts_chunk$set(echo = FALSE,
                  exercise.warn_invisible = FALSE)
 ```
 
-## Presentación 
+## Presentación y Bienvenida 
 
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
-knitr::include_graphics("images/tutorial.jpg")
+knitr::include_graphics("images/tutorial_encabezado.jpg")
 # Photo by Markus Winkler on Unsplash https://unsplash.com/photos/92HqQ0ZvKDA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 ```
-En su presentación _Learning without a net_ Alison Hill nos cuenta que un **buen tutorial** debe tener:
+En su presentación [Aprendiendo sin una red](https://alison.netlify.app/latinr-learn/#1) Alison Hill nos cuenta que un **buen tutorial** debe tener:
 
 * un buen **alcance**
 * una buena **estructura**
 * una buena **secuencia**
 
-En esta plantilla proponemos una sección de __Presentación__ del curso que contiene herrmientas pedagógicas pensadas para contribuir a la apertura, reuso y aprovechamiento del material pedagógico.
+### Estructura propuesta
 
-### Agenda del curso y objetivos de aprendizaje
+En esta plantilla proponemos una sección de __Presentación y Bienvenida__ del curso que contiene herramientas pedagógicas pensadas para contribuir a la apertura, reuso y aprovechamiento de tus materiales de enseñanza.  Sugerimos que esta sección contenga:
 
+* Objetivos de aprendizaje y una agenda del curso.
+* Personas Tipo
+* Licencia
+* _Opcionalmente: un mapa conceptual de los contenidos del tutorial_
+
+### Objetivos de aprendizaje y agenda del curso.
+
+En este tutorial vamos a reparar como generar una serie de gráficos básicos con R utilizando el paquete `ggplot2`
 
 ### ¿Quién sos vos?
 
-En este tutorial vamos a reparar como generar una serie de gráficos básicos con R utilizando el paquete `ggplot2`.  cuando generamos este tutorial pensamos en las siguientes personas:
+Cuando generamos este tutorial pensamos en las siguientes personas:
 
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
 knitr::include_graphics("images/gentecompu.jpg")  
