@@ -20,8 +20,10 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
 knitr::include_graphics("images/tutorial_encabezado.jpg")
-# Photo by Markus Winkler on Unsplash https://unsplash.com/photos/92HqQ0ZvKDA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 ```
+> Photo by Markus Winkler on [Unsplash](https://unsplash.com/photos/92HqQ0ZvKDA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+
 En su presentación [Aprendiendo sin una red](https://alison.netlify.app/latinr-learn/#1) Alison Hill nos cuenta que un **buen tutorial** debe tener:
 
 * un buen **alcance**
@@ -69,27 +71,27 @@ Los materiales que cuentan con una licencia permiten ser utilizados correctament
 
 Sugerimos seleccionar una licencia abierta tanto para el material (texto, imágenes, videos) como para el software. 
 
-### Material
+#### Material
 
 Las licencias [Creative Commons](http://www.creativecommons.org.ar/licencias.html) proveen diversos tipos  dependiendo de lo que deseamos que pueda hacer quien use nuestros materiales. Este [selector de licencias](https://creativecommons.org/choose/?lang=es_AR) puede ayudarnos a elegir la licencia que mejor se adapta a nuestras necesidades. 
 
-### Software
+#### Software
 
 Para el software, existen múltiples opciones. Sugerimos alguna de estas tres opciones:
 
-* La [licencia MIT](), que permite a los usuarios hacer libremente lo que quieran.
+* La [licencia MIT](https://opensource.org/licenses/MIT), que permite que los usuarios le den cualquier uso que quieran al código.
 
-* Usar la [Licencia Pública General de GNU (GPL)](https://www.gnu.org/licenses/licenses.es.html#GPL), que también permite a los usuarios hacer lo que quieran, pero requiere que compartan su propio código.
+* Usar la [Licencia Pública General de GNU (GPL)](https://www.gnu.org/licenses/licenses.es.html#GPL), que también permite a los usuarios hacer cualquier uso que quieran, pero exige que compartan su propio código bajo esta licencia.
 
-* La [licencia hipocrática](https://firstdonoharm.dev/version/2/1/license.html), que permite usar el código libremente siempre que el usuario no esté violando los tratados básicos de derechos humanos.  
+* La [licencia hipocrática](https://firstdonoharm.dev/version/2/1/license.html), que permite usar el código libremente siempre que el uso no viole los tratados básicos de derechos humanos.  
 
 Tengamos en cuenta que si utilizamos código de otros autores pueden existir restricciones con respecto a que licencia podemos asignar a nuestro propio código.
 
+Un ejemplo de licencia:
 
 ```{r, echo=FALSE, fig.align = "left"}
 knitr::include_graphics("images/CC_BY-SA_4.0.png")  
 ```
-
 Este curso se comparte bajo la licencia [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES) y fue realizado por [Yanina Bellini Saibene](https://yabellini.netlify.app/)
 
 ### Te mostramos el otro mapa: como funciona el tutorial
