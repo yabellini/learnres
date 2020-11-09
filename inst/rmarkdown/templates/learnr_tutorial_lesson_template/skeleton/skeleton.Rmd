@@ -41,8 +41,7 @@ En esta plantilla proponemos una sección de __Presentación y Bienvenida__ del 
 
 ### Objetivos de aprendizaje y agenda del curso.
 
-En este tutorial vamos a reparar como generar una serie de gráficos básicos con R utilizando el paquete `ggplot2`
-
+Un Objetivo de aprendizaje describe qué está intentando lograr la lección . 
 ### Personas tipo o ¿Quién sos vos?
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
 knitr::include_graphics("images/gentecompu.jpg")  
