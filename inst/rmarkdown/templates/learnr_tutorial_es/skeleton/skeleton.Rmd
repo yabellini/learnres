@@ -77,9 +77,11 @@ quiz(
     answer("gplot2", message = "Nop...intentalo de nuevo!"),
     answer("plot2", message = "Incorrect. Intenta de nuevo!."),
     answer("ggplot2", correct = TRUE),
+    # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
-    try_again_button = "Intentar de nuevo"
-  ), caption = "Visualización"
+    try_again_button = "Intentar de nuevo"), 
+  # Si no ponemos un caption aparecerá la palabra Quiz en inglés.
+  caption = "Visualización"
 )
 
 ```
@@ -93,7 +95,8 @@ quiz(
     answer("tools"),
     answer("utils", correct = TRUE),
     answer("codetools"),
-    submit_button = "Enviar respuesta",
+    # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
+        submit_button = "Enviar respuesta",
     try_again_button = "Intentar de nuevo"
   ),
   question("¿Cuál de los paquetes R enumerados a continuación se usa para crear gráficos?",
@@ -101,6 +104,7 @@ quiz(
     answer("tools"),
     answer("stats"),
     answer("grid", correct = TRUE),
+    # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
     try_again_button = "Intentar de nuevo"
   )

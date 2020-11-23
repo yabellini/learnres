@@ -21,32 +21,55 @@ knitr::opts_chunk$set(echo = FALSE,
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
 knitr::include_graphics("images/tutorial_encabezado.jpg")
 ```
-> Photo by Markus Winkler on [Unsplash](https://unsplash.com/photos/92HqQ0ZvKDA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+> Foto de Markus Winkler en [Unsplash](https://unsplash.com/photos/92HqQ0ZvKDA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-
-En su presentación [Aprendiendo sin una red](https://alison.netlify.app/latinr-learn/#1) Alison Hill nos cuenta que un **buen tutorial** debe tener:
-
-* un buen **alcance**
-* una buena **estructura**
-* una buena **secuencia**
 
 ### Estructura propuesta
 
 En esta plantilla proponemos una sección de __Presentación y Bienvenida__ del curso que contiene herramientas pedagógicas pensadas para contribuir a la apertura, reuso y aprovechamiento de tus materiales de enseñanza.  Sugerimos que esta sección contenga:
 
-* Objetivos de aprendizaje y una agenda del curso.
+* Objetivos de aprendizaje.
 * Personas Tipo
 * Licencia
 * _Opcionalmente: un mapa conceptual de los contenidos del tutorial_
 
-### Objetivos de aprendizaje y agenda del curso.
+### Descripción del curso con Objetivos de aprendizaje.
 
-Un Objetivo de aprendizaje describe qué está intentando lograr la lección . 
+La descripción del curso enumera los contenidos, el orden y opcionalmente el tiempo involucrado en cubrir cada tema.  También suele mencionar las herramientas que se utilizarán para enseñar y los elementos que las y los estudiantes necesitan tener disponibles.
+
+Un [Objetivo de aprendizaje](https://teachtogether.tech/es/index.html#s:process-objectives) describe claramente qué está intentando lograr la lección y cómo la/el estudiante demostrará lo que aprendió una vez que haya completado la lección. 
+
+#### Ejemplo de descripción y objetivos de aprendizaje
+
+**Objetivo general:** Introducir a los asistentes en el control de versiones utilizando Git desde RStudio.
+
+**Contenido:**
+ 
+* Qué es el control de versiones.
+* Qué es git, que diferencia tiene con GitHub.
+* Cuales son los estados de un archivo que tiene control de versiones.
+* Cuales son los comandos de git para cambiar esos estados.
+* Como tener control de versiones en un proyecto de RStudio.
+* Cómo aplico los comandos de git desde RStudio.
+
+**Objetivos de aprendizajes:**
+
+* Comprender los beneficios de un sistema de control de versiones automatizado.
+* Comprender los conceptos básicos de cómo funcionan los sistemas de control de versiones automatizados.
+* Entender que es un repositorio local y como se relaciona con los proyectos de RStudio.
+* Entender que es un repositorio remoto y como se relaciona con GitHub.
+* Comprender cómo usar Git con GitHub desde RStudio.
+* Generar un proyecto con control de versiones desde cero.
+* Agregarle control de versiones a un proyecto ya existente.
+* Hacer stage y commit a un repositorio local.
+* Hacer Push to or pull desde un repositorio remoto.
+ 
+
 ### Personas tipo o ¿Quién sos vos?
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}
 knitr::include_graphics("images/gentecompu.jpg")  
 ```
-> [Photo by Brooke Cagle on Unsplash](https://unsplash.com/photos/C-v1p2DTakA)
+> [Foto de Brooke Cagle en Unsplash](https://unsplash.com/photos/C-v1p2DTakA)
 
 Las personas tipo describen el público para el que fue pensado el curso. Como se explica en el libro [Teaching Teach Together](https://teachtogether.tech/es/index.html#s:process-personas) debe contemplar los siguientes aspectos:
 
@@ -76,11 +99,11 @@ Las licencias [Creative Commons](http://www.creativecommons.org.ar/licencias.htm
 
 #### Software
 
-Para el software, existen múltiples opciones. Sugerimos alguna de estas tres opciones:
+Para el software, existen múltiples opciones. Les presentamos tres opciones:
 
 * La [licencia MIT](https://opensource.org/licenses/MIT), que permite que los usuarios le den cualquier uso que quieran al código.
 
-* Usar la [Licencia Pública General de GNU (GPL)](https://www.gnu.org/licenses/licenses.es.html#GPL), que también permite a los usuarios hacer cualquier uso que quieran, pero exige que compartan su propio código bajo esta licencia.
+* Usar la [Licencia Pública General de GNU (GPL)](https://www.gnu.org/licenses/licenses.es.html#GPL), que también permite a los usuarios hacer cualquier uso que quieran exigiendo que compartan su propio código bajo esta licencia.
 
 * La [licencia hipocrática](https://firstdonoharm.dev/version/2/1/license.html), que permite usar el código libremente siempre que el uso no viole los tratados básicos de derechos humanos.  
 
@@ -93,28 +116,11 @@ knitr::include_graphics("images/CC_BY-SA_4.0.png")
 ```
 Este curso se comparte bajo la licencia [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES) y fue realizado por [Yanina Bellini Saibene](https://yabellini.netlify.app/)
 
-### Te mostramos el otro mapa: como funciona el tutorial
+### _Opcional: mapa conceptual_
 
-### Ejemplo de la gramática en un gráfico
+Los [mapas conceptuales](https://teachtogether.tech/es/index.html#s:memory-concept-maps) representan un modelo mental del tema que se quiere enseñar. Ayudan a las y los docentes a describir lo que quieren enseñar, brindan a otras y otros instructores una descripción general rápida de una lección y permiten a las y los estudiantes verificar que han construido el modelo mental correcto.
 
-Vamos a ver un ejemplo de estos componentes en un gráfico, para ello vamos a utilizar el paquete `gapminder` que ya instalamos y cargamos por ti.
-
-Para ver los datos de `gapminder`, escribe `gapminder` en el bloque de código que aparece abajo y luego haz click en el botón _"Run Code"_ (ejecutar código, en inglés).
-
-```{r gapminder0, exercise = TRUE}
-
-
-```
-
-```{r gapminder0-solution}
-gapminder
-```
-
-### Mensaje
-
-Buen trabajo! Usaremos fragmentos de código interactivos como este en el tutorial. Siempre que encuentres uno, puedes hacer clic en _Run Code_ para ejecutar el código escrito. Si hay un botón _Hint_ o _Solución_, puedes hacer clic para recibir ayuda y/o ver la respuesta.
-
-
+En este [post](https://learning-learnr.netlify.app/post/concept_maps/) se detalla como agregar mapas conceptuales a nuestros tutoriales y en [este repo](https://github.com/rstudio/concept-maps/tree/master/es) pueden encontrar un listado de mapas conceptuales con licencia CC-BY.
 
 ## Tema 1
 
@@ -174,8 +180,12 @@ quiz(
   allow_retry = TRUE,
     answer("ggplot", message = "Cerca, pero no...intentalo de nuevo!"),
     answer("gplot2", message = "Nop...intentalo de nuevo!"),
-    answer("plot2", message = "Incorrect. Intenta de nuevo!."),
-    answer("ggplot2", correct = TRUE)
+    answer("plot2", message = "Incorrecto. Intenta de nuevo!."),
+    answer("ggplot2", correct = TRUE),
+    # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
+    submit_button = "Enviar respuesta",
+    try_again_button = "Intentar de nuevo"
+  # Si no ponemos un caption aparecerá la palabra Quiz en inglés.
   ), caption = "Visualización"
 )
 
@@ -189,13 +199,19 @@ quiz(
     answer("base"),
     answer("tools"),
     answer("utils", correct = TRUE),
-    answer("codetools")
+    answer("codetools"),
+# Si no cambiamos estos textos en los botones, se mostrarán en Inglés
+        submit_button = "Enviar respuesta",
+    try_again_button = "Intentar de nuevo"
   ),
   question("¿Cuál de los paquetes R enumerados a continuación se usa para crear gráficos?",
     answer("lattice", correct = TRUE),
     answer("tools"),
     answer("stats"),
-    answer("grid", correct = TRUE)
+    answer("grid", correct = TRUE),
+# Si no cambiamos estos textos en los botones, se mostrarán en Inglés
+    submit_button = "Enviar respuesta",
+    try_again_button = "Intentar de nuevo"
   )
 )
 ```
