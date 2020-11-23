@@ -184,9 +184,9 @@ quiz(
     answer("ggplot2", correct = TRUE),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
-    try_again_button = "Intentar de nuevo"
+    try_again_button = "Intentar de nuevo"),
   # Si no ponemos un caption aparecerá la palabra Quiz en inglés.
-  ), caption = "Visualización"
+   caption = "Visualización"
 )
 
 ```
@@ -202,8 +202,7 @@ quiz(
     answer("codetools"),
 # Si no cambiamos estos textos en los botones, se mostrarán en Inglés
         submit_button = "Enviar respuesta",
-    try_again_button = "Intentar de nuevo"
-  ),
+    try_again_button = "Intentar de nuevo"),
   question("¿Cuál de los paquetes R enumerados a continuación se usa para crear gráficos?",
     answer("lattice", correct = TRUE),
     answer("tools"),
@@ -211,7 +210,6 @@ quiz(
     answer("grid", correct = TRUE),
 # Si no cambiamos estos textos en los botones, se mostrarán en Inglés
     submit_button = "Enviar respuesta",
-    try_again_button = "Intentar de nuevo"
-  )
+    try_again_button = "Intentar de nuevo")
 )
 ```
