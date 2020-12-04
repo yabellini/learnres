@@ -1,6 +1,6 @@
 ---
 title: "Título del tutorial"
-author: Yanina Bellini Saibene (www.metadocencia.org)
+author: Yanina Bellini Saibene - [MetaDocencia](www.metadocencia.org)
 output: 
   learnr::tutorial:
     css: css/learnr_metadocencia.css
