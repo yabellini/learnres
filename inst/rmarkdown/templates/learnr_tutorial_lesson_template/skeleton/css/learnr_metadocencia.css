@@ -128,3 +128,17 @@ code {
     border: solid 5px #C83737;
     background-image: url("manzana.png");
   }
+
+.note_white {
+    padding: 1em;
+    margin: 1em 0;
+    padding-left: 100px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    min-height: 120px;
+    color: black;
+    background-color: white;
+    border: solid 5px #C83737;
+    background-image: url("manzana.png");
+  }
