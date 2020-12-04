@@ -74,7 +74,6 @@ Cuando generamos esta plantilla pensamos en las siguientes personas tipo:
 __Rene:__ es docente y ha tenido que llevar su clase de introducción a R a formato virtual, esto le hace muy difícil poder ayudar a sus alumnos con la configuración de sus máquinas personales con todo el software necesario para llevar adelante la clase. Ya tiene ejercicios generados en formato rmarkdown. Con la idea de que puedan empezar a trabajar enseguida con R sin sufrir con la instalación en un inicio le parece buena idea generar tutoriales interactivos porque escuchó que se pueden publicar como una aplicación shiny.
 
 </div>
-<br>
 
 
 Si quieres más ejemplos estas personas de [MetaDocencia](https://www.metadocencia.org/post/personas-tipo/), [RStudio Education](https://education.rstudio.com/blog/2020/10/learner-personas/) y [mis cursos](https://github.com/yabellini/learner_personas) pueden servirte de inspiración.
@@ -119,9 +118,17 @@ Los [mapas conceptuales](https://teachtogether.tech/es/index.html#s:memory-conce
 
 #### Ejemplo de mapa conceptual
 
+Este mapa conceptual presenta un mapa mental del verbo `select` de tidyverse.
+
 <div class="note">
 
+```{r, echo=FALSE, fig.align = "right"}
+knitr::include_graphics("images/mapa_conceptual.png", )  
+```
+
 </div>
+
+> Fuente: Monica Alonso, Greg Wilson (https://github.com/gvwilson/concept-maps#select)
 
 En este [post](https://learning-learnr.netlify.app/post/concept_maps/) se detalla como agregar mapas conceptuales a nuestros tutoriales y en [este repo](https://github.com/rstudio/concept-maps/tree/master/es) pueden encontrar un listado de mapas conceptuales con licencia CC-BY.
 
