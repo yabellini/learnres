@@ -122,13 +122,13 @@ Este mapa conceptual presenta un mapa mental del verbo `select` de tidyverse.
 
 <div class="note">
 
-```{r, echo=FALSE, fig.align = "right"}
-knitr::include_graphics("images/mapa_conceptual.png", )  
-```
+```{r, echo=FALSE, , out.width="80%", fig.align = "center"}
+knitr::include_graphics("images/mapa_conceptual.png")  
 
+```
+Fuente: [Mapas Conceptuales RStudio](https://github.com/gvwilson/concept-maps#select) - Autores: Monica Alonso, Greg Wilson 
 </div>
 
-> Fuente: Monica Alonso, Greg Wilson (https://github.com/gvwilson/concept-maps#select)
 
 En este [post](https://learning-learnr.netlify.app/post/concept_maps/) se detalla como agregar mapas conceptuales a nuestros tutoriales y en [este repo](https://github.com/rstudio/concept-maps/tree/master/es) pueden encontrar un listado de mapas conceptuales con licencia CC-BY.
 
@@ -138,7 +138,7 @@ En este [post](https://learning-learnr.netlify.app/post/concept_maps/) se detall
 
 *Aquí hay un ejercicio simple con un fragmento de código vacío proporcionado para ingresar la respuesta.*
 
-Escriba el código R requerido para sumar dos más dos:
+Escriba el código R requerido para sumar dos más dos y luego presione el botón _Run Code_:
 
 ```{r dos-mas-dos, exercise=TRUE}
 
