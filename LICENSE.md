@@ -1,6 +1,19 @@
 ## Licencia
 
-* Licencia para el código: [Licencia hipocrática](https://firstdonoharm.dev/). Versión corta: puedes usar el código libremente siempre que no estés violando los tratados básicos de derechos humanos.
+Los contenidos de la web están bajo licencia [Atribución 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.es). Esto signfica que:
+Sos libre de…
 
-* Licencia para el material: las plantillas de este paquete se distribuyen bajo la misma licencia que todos los materiales de MetaDocencia +  la licencia indicada en algunos de los materiales utilzados como fuente: 
-[Creative Commons Atribución – No Comercial 4.0 (CC-BY-NC-4.0)](https://www.metadocencia.org/terms/).
+    Compartir — copiar y redistribuir el material en cualquier medio o formato
+
+    Adaptar — remezclar, transformar y construir a partir del material para cualquier propósito, incluso comercialmente.
+
+Bajo los siguientes términos:
+
+    Atribución — Debés dar crédito de manera adecuada, brindar un enlace a la licencia, e indicar si se han realizado cambios. Podés hacerlo en cualquier forma razonable, pero no de forma tal que sugiera que vos o tu uso tienen el apoyo de la licenciante.
+    
+    NoComercial — Usted no puede hacer uso del material con propósitos comerciales. 
+
+    No hay restricciones adicionales — No podés aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otras a hacer cualquier uso permitido por la licencia.
+
+Este resumen legible por humanos no es un sustituto de la [licencia](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
+
