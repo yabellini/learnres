@@ -6,6 +6,8 @@ output:
     css: css/learnr_metadocencia.css
     progressive: true # los encabezados de tercer nivel (###) son revelados progresivamente 
     allow_skip: true # permite saltearse los ejercicios. 
+    language:
+      es: tutorial_es.json
 description: "Mi super genial tutorial de R" # Esta descripción se ve en el panel Tutorial de RStudio 
 runtime: shiny_prerendered
 ---
