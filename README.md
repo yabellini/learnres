@@ -22,7 +22,7 @@ remotes::install_github("yabellini/learnres")
 
 ### Ejemplos de uso
 
-Para generar un nuevo tutorial con las plantillas en español, luego de instalar el paquete y dentro de RStudio seleccionamos **File** -> **New File** -> **RMarkdown** -> **From Template** -> 
+Para generar un nuevo tutorial con las plantillas en español, luego de instalar el paquete y dentro de RStudio seleccionamos **File** -> **New File** -> **RMarkdown** -> **From Template** -> y allí seleccionamos que plantilla queremos utilizar
 
 ![Pantalla que marca los pasos explicados en el texto anterior para utilizar la plantilla](how_to.png)
 
