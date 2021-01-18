@@ -9,7 +9,11 @@ Este paquete contiene dos plantillas para generar tutoriales con `learnr`:
 
 - Una segunda plantilla con una sugerencia de estructura y elementos que contribuyen a que el material contemple algunas herramientas pedagógicas y pueda ser compartido, reutilizado, citado y encontrado.
 
-También tiene una hoja `CSS` con los estilos explicados para que la puedas editar y generar los propios.
+También tiene:
+
+- una hoja `CSS` con los estilos explicados para que la puedas editar y generar los propios.
+
+- un `JSON` con todas las partes de la interfaz traducidas al español.
 
 ### Instalación
 
