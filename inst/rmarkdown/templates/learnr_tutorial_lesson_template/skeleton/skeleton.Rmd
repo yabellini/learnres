@@ -4,8 +4,7 @@ author: Yanina Bellini Saibene - [MetaDocencia](www.metadocencia.org)
 output: 
   learnr::tutorial:
     css: css/learnr_metadocencia.css
-    progressive: true # los encabezados de tercer nivel (###) son revelados progresivamente 
-    allow_skip: true # permite saltearse los ejercicios. 
+    progressive: true # los encabezados de tercer nivel (###) son revelados progresivamente     allow_skip: true # permite saltearse los ejercicios. 
     language:
       es: tutorial_es.json
 description: "Tutorial interactivo con recursos para facilitar compartirlos y reusarlos" # Esta descripción se ve en el panel Tutorial de RStudio 
