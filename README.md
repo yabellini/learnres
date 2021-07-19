@@ -1,6 +1,6 @@
 # learnres: paquete de plantillas en español para {learnr}
 ![R-CMD-check](https://github.com/yabellini/learnres/workflows/R-CMD-check/badge.svg?branch=main)
-![r-universe](https://r-lib.r-universe.dev/badges/cpp11)
+![r-universe](https://yabellini.r-universe.dev/badges/learnres)
 
 Conjunto de plantillas en español para generar tutoriales interactivos con el paquete [learnr](https://rstudio.github.io/learnr/).  
 
