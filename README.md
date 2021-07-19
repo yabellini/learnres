@@ -29,7 +29,7 @@ Este paquete ahora está en _r-universe_, para habilitarlo como opción de insta
 
 ``` r
 options(repos = c(
-    yabellini = 'https://maelle.r-universe.dev',
+    yabellini = 'https://yabellini.r-universe.dev',
     CRAN = 'https://cloud.r-project.org'))
 ```
 y luego instalar el paquete de esta manera 
