@@ -1,5 +1,6 @@
 # learnres: paquete de plantillas en español para {learnr}
 ![R-CMD-check](https://github.com/yabellini/learnres/workflows/R-CMD-check/badge.svg?branch=main)
+![r-universe](https://r-lib.r-universe.dev/badges/cpp11)
 
 Conjunto de plantillas en español para generar tutoriales interactivos con el paquete [learnr](https://rstudio.github.io/learnr/).  
 
@@ -23,6 +24,19 @@ Para instalar la versión de desarrollo desde GitHub, usá:
 # install.packages("remotes")
 remotes::install_github("yabellini/learnres")
 ```
+
+Este paquete ahora está en _r-universe_, para habilitarlo como opción de instalación podés correr este código:
+
+``` r
+options(repos = c(
+    yabellini = 'https://maelle.r-universe.dev',
+    CRAN = 'https://cloud.r-project.org'))
+```
+y luego instalar el paquete de esta manera 
+
+``` r
+install.packages('tinkr')
+``` 
 
 ### Ejemplos de uso
 
