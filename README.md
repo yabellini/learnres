@@ -35,7 +35,7 @@ options(repos = c(
 y luego instalar el paquete de esta manera 
 
 ``` r
-install.packages('tinkr')
+install.packages('learnres')
 ``` 
 
 ### Ejemplos de uso
